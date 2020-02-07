@@ -1,0 +1,63 @@
+@font-face{
+    src: url(Fonts/TravelingTypewriter.ttf);
+    font-family: typeWriter;
+}
+
+/*This will give it to all the children of class name .grid-container with the name div.*/
+.grid-container > div {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 3px;
+    padding: 1em;
+    background-color:darkslategray;
+}
+
+.grid-container > .header {
+    justify-content: center;
+    height:300px;
+    overflow:hidden;
+    display: flex;
+    padding: 0px;
+    
+}
+
+.grid-container > .header > img {
+    flex-shrink: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.grid-container > div.NavBar{
+    display:flex;
+    justify-content: space-evenly;  
+}
+
+
+p{
+    float:left;
+    font-family: typeWriter;
+    font-size: 24px;
+}
+
+
+
+body{
+    background-color: black;
+    padding: 2%;
+    margin: 1em, 10em, 1em, 10em;
+}
+
+
+.image{
+    float:left;
+    border-style: dashed;
+    margin-right: 1em;
+}
+
+.riskImage{
+    float:right;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
