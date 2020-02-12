@@ -1,5 +1,5 @@
 @font-face{
-    src: url(website/docs/Fonts/TravelingTypewriter.ttf);
+    src: url(Fonts/TravelingTypewriter.ttf);
     font-family: typeWriter;
 }
 
@@ -9,7 +9,8 @@
     grid-template-columns: auto;
     margin: 3px;
     padding: 1em;
-    background-color:darkslategray;
+    background-color:#404040;
+    border-radius: 3px;
 }
 
 .grid-container > .header {
@@ -18,6 +19,7 @@
     overflow:hidden;
     display: flex;
     padding: 0px;
+    border-radius: 150px;
     
 }
 
@@ -38,12 +40,13 @@ p{
     float:left;
     font-family: typeWriter;
     font-size: 24px;
+    color: #A6A5A5;
 }
 
 
 
 body{
-    background-color: black;
+    background-color: #030202;
     padding: 2%;
     margin: 1em, 10em, 1em, 10em;
 }
@@ -61,3 +64,6 @@ body{
     margin-left: 1em;
 }
 
+a:any-link{
+    color: #A6A5A5;
+}

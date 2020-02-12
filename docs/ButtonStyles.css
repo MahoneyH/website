@@ -9,6 +9,11 @@ button{
     
 }
 
+button:active{
+    box-shadow: #302020;
+    transform: translate(3px, 3px);
+}
+
 .grid-container > div > button{
     width: 300px;
     height: 75px;
