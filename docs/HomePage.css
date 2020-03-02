@@ -13,13 +13,17 @@
     border-radius: 3px;
 }
 
+#newSections{
+    background-color:#404040;
+}
+
 .grid-container > .header {
     justify-content: center;
     height:300px;
     overflow:hidden;
     display: flex;
     padding: 0px;
-    border-radius: 150px;
+    border-radius: 100px;
     
 }
 
@@ -47,14 +51,13 @@ p{
 
 body{
     background-color: #030202;
-    padding: 2%;
-    margin: 1em, 10em, 1em, 10em;
+    padding: 0% 2% 0% 2%;
+    margin: 0;, 10em, 1em, 10em;
 }
 
 
 .image{
     float:left;
-    border-style: dashed;
     margin-right: 1em;
 }
 

@@ -1,3 +1,7 @@
+@font-face{
+    src: url(Fonts/TravelingTypewriter.ttf);
+    font-family: typeWriter;
+}
 button{
     background-color: #FA780D;
     box-shadow: 2px 2px 2px #FF963E, 3px 3px 3px white, 5px 5px 5px #000000;
@@ -6,11 +10,12 @@ button{
     font-weight: 900;
     color: #E8E8E8;
     outline: none;
+    font-family: typeWriter;
     
 }
 
 button:active{
-    box-shadow: #302020;
+    box-shadow: 2px 2px 2px black;
     transform: translate(3px, 3px);
 }
 
@@ -20,4 +25,9 @@ button:active{
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+button:hover{
+    background-color:#FF9843;
 }
